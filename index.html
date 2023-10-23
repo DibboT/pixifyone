@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,17 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="logo" href="/pixifyone.JPG">
 </head>
+
 <body>
-    <div>
+    <div class="container">
         <h2>PixiFyOne</h2>
         <hr>
         <div class="view-img">
-
+            <img src="/images/one (2).png" alt="">
         </div>
         <div class="choose_img">
-            <button>Choose Image</button>
-            <input type="button" name="" id="" accept="image/*">
+            <button>Choose Image <img src="images/" alt=""></button>
+            <input type="file" name="" id="" accept="image/*">
         </div>
         <div class="slider">
             <div class="filter-info">
@@ -25,6 +27,32 @@
             </div>
             <input type="range" name="" id="" max="200" min="0">
         </div>
+        <div class="icons_filter">
+            <p>Filters</p>
+            <div class="icones_room">
+                <button><img src="/images/brightnss.png" alt=""></button>
+                <button><img src="/images/brightnss.png" alt=""></button>
+                <button><img src="/images/brightnss.png" alt=""></button>
+                <button><img src="/images/brightnss.png" alt=""></button>
+                <button><img src="/images/brightnss.png" alt=""></button>
+            </div>
+        </div>
+        <div class="icons_filter">
+            <p>Rotate & Flip</p>
+            <div class="icones_room">
+                <button><img src="/images/rotateleft.png" alt=""></button>
+                <button><img src="/images/rotateleft.png" alt=""></button>
+                <button><img src="/images/rotateleft.png" alt=""></button>
+                <button><img src="/images/rotateleft.png" alt=""></button>
+                
+            </div>
+        </div>
+        <div class="btn_contain">
+            <button class="reset">Reset Filter</button>
+            <button class="save">Save Image</button>
+
+        </div>
     </div>
 </body>
+
 </html>
